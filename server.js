@@ -17,6 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 mongoose.connect("mongodb://localhost/googlebooks", {
   useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 //Define API routes here
