@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const Book = new Schema({    
+const BookSchema = new Schema({    
     title: String,
     authors: [String],
     description: String,
@@ -9,5 +9,5 @@ const Book = new Schema({
     link: String
 });
 
-const Book = mongoose.model('ModelName', UserSchema);Book
+const Book = mongoose.model('Book', BookSchema);
 module.exports = Book;
