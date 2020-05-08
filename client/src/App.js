@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from './Components/Navbar/Navbar'
+import Jumbotron from './Components/Jumbotron/Jumbotron'
 import "./App.css";
 
 class App extends Component {
@@ -7,9 +8,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <div className="container">
-          <h1>Stuff goes here</h1>
-        </div>
+        <Jumbotron />
       </div>
     );
   }
