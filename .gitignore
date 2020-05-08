@@ -5,6 +5,7 @@ node_modules
 /.pnp
 .pnp.js
 homework_instructions.md
+ReactSetup.md
 
 # testing
 /coverage
