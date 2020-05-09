@@ -18,12 +18,12 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a href="#" className="nav-link mb-0 text-white mr-3">
+                <button href="#" className="nav-item btn btn-outline-light mb-0 mr-3">
                   Search <span className="sr-only">(current)</span>
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a href='#' className="nav-link mb-0 text-white">Saved</a>
+                <button href='#' className="nav-item btn btn-outline-light mb-0 text-white">Saved</button>
               </li>
             </ul>
           </div>
