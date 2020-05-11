@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Button from "../Button/Button";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { toast } from "react-toastify";
 
 class AddBookBtn extends Component {
@@ -25,9 +26,10 @@ class AddBookBtn extends Component {
         <Button
           type="primary"
           onClick={() => {
-            this.postToDB(this.props)}
-        }>
-        Save book
+            this.postToDB(this.props);
+          }}
+        >
+          Save book
         </Button>
       </div>
     );

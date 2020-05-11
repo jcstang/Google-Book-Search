@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Jumbotron.css";
 
 export default function Jumbotron() {

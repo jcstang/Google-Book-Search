@@ -14,6 +14,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Jumbotron />
         <Router>
           <Container>
             <ToastContainer
@@ -36,7 +37,6 @@ class App extends Component {
             </Switch>
           </Container>
         </Router>
-        <Jumbotron />
       </div>
     );
   }
