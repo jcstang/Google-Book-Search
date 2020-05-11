@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Thumbnail from "../Thumbnail";
-import { Container, Row, Col } from "../Grid";
+import Thumbnail from "../Thumbnail/Thumbnail";
+import { Container, Row, Col } from "../Grid/Grid";
 
 export function BookList({ children }) {
   return <ul className="list-group">{children}</ul>;

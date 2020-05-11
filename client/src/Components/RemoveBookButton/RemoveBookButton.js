@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../Button/Button";
 
 function RemoveBookButton(props) {
   return (
@@ -14,3 +14,5 @@ function RemoveBookButton(props) {
     </Button>
   );
 }
+
+export default RemoveBookButton;

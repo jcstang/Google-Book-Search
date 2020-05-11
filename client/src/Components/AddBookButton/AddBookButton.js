@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "../button";
+import Button from "../Button/Button";
 import axios from "axios";
 import { toast } from "react-toastify";
 

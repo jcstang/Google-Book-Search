@@ -11,3 +11,5 @@ function Thumbnail({ src }) {
     />
   );
 }
+
+export default Thumbnail;
