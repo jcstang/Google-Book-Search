@@ -6,7 +6,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "standard"
+        "standard",
+        "prettier"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -21,10 +22,28 @@
     },
     "plugins": [
         "react",
-        "react-hooks"
+        "react-hooks",
+        "prettier"
     ],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn"
+        "react-hooks/exhaustive-deps": "warn",
+        "no-duplicate-case":"error",
+        "no-empty":"error",
+        "no-extra-semi":"error",
+        "no-func-assign": "error",
+        "no-irregular-whitespace":"error",
+        "no-unreachable": "error",
+        "curly": "error",
+        "dot-notation": "error",
+        "eqeqeq": "error",
+        "no-empty-function": "error",
+        "no-multi-spaces": "error",
+        "no-unused-vars": "warn",
+        "camelcase": "error",
+        "indent": ["error",2],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "prettier/prettier": "error"
     }
 }
